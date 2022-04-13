@@ -35,12 +35,12 @@ def lanuages_keyboard(_):
     )
     keyboard.row(
         InlineKeyboardButton(
-            text="🇱🇰 සිංහල",
-            callback_data=f"languages:si",
+            text="🇮🇩 Indonesia",
+            callback_data=f"languages:id",
         ),
         InlineKeyboardButton(
-            text="🇦🇿 Azərbaycan",
-            callback_data=f"languages:az",
+            text="🇯🇵 Japanese",
+            callback_data=f"languages:ja",
         ),
     )
     keyboard.row(
